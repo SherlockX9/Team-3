@@ -10,5 +10,12 @@ public class math {
 		return number2;
 	}
 	
+	public int intMinimum(int number1, int number2) {
+		if (number1 > number2) {
+			return number2;
+		}
+		return number1;
+	}
+	
 		
 }
